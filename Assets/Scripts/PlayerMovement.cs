@@ -2,11 +2,7 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour {
 
-    [SerializeField] float speed = 10f;
-
-    void Start() {
-        
-    }
+    [SerializeField] float speed = 15f;
 
     void Update() {
         float h = Input.GetAxis("Horizontal");
